@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+</head>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            /* 
+            Medidas Absolutas
+            cm, mm, in(polegada), px(pixel), pt(pnto), pc(paica)
+            
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+            16px geralmente = 1em
+            */
+            font-size: 1em;
+            font-weight: normal;/* lighter, normal, bold, bolder.(Negrito)*/
+            font-style: normal; /*Deixar em Itálico*/
+            /*text-decoration: underline; Deixa sublinhado*/
+            /* weight(Peso), Width(Largura), Heigth(Altura)*/ 
+        }
+
+        h1{
+            font: italic bold 3em 'Work Sans', sans-serif;
+            /*shorthand(dica) Font - font-style -> font-weight -> font-size -> font-family
+            
+            font-family: 'Work Sans', sans-serif;
+            font-weight: bold;
+            font-size: 3em;
+            font-style: italic
+            ;*/
+
+        }
+
+        h2{
+            font: bolder 2em 'work sans', sans-serif
+        }
+
+    </style>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi voluptas aperiam, dolorem iusto perspiciatis veniam doloribus suscipit adipisci quis atque fugiat dicta consequatur animi, distinctio vero in nulla sint. Quam! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus earum nostrum dolor beatae deserunt magni quas commodi non ab modi error id quo illo, ipsam at aliquam quia voluptate ut!</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis inventore corrupti reiciendis harum eum similique consequuntur voluptate, recusandae dolore dolorem obcaecati magnam earum molestiae placeat quisquam laudantium nulla quas? Officia.</p>
+    <h2>Subtítulo com fontes</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita pariatur ipsum illum? Dignissimos non nisi eum aperiam totam quia labore, hic, ex, aliquid dolorum accusantium perspiciatis vitae voluptate ipsum quisquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quae impedit illo laboriosam eos, labore, at officia quod natus excepturi veritatis architecto id praesentium dicta quaerat delectus molestiae, quia non?</p>
+</body>
+</html>
